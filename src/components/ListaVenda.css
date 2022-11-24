@@ -1,0 +1,37 @@
+#containerLista {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.5);
+    width: 88%;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+#containerLista:hover {
+    background-color: #342B49;
+    color: #fff;
+}
+
+#nome { 
+    margin-left: 15px;
+    max-width: 70%;
+    font-weight: bolder;  
+}
+
+
+#valor {
+    text-align: center;
+    margin-top: 3px;
+    color: green;
+}
+
+@media (min-height: 699px) {
+
+    #containerLista {
+        width: 90%;
+    }
+
+
+}

@@ -1,0 +1,88 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    height: 100%;
+    width: 100%;
+}
+
+#ListaContainerRegistro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+#Lista {
+    margin-left: 4.5%;
+}
+
+#buscaStatus {
+    align-items: center;
+    margin-top: 14%;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}
+
+#containerListaVazia {
+    margin-top: 11%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#containerListaVazia>p {
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+
+#container > div {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-left: 2.5%;
+    flex-direction: row;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+#ListaPesquisa {
+    overflow-y: scroll;
+    margin-top: 2%;
+    margin-left: 5%;
+    max-height: 392px;
+    width: 800px;
+}
+
+#ListaPesquisaRegistro {
+    overflow-y: scroll;
+    margin-top: 2%;
+    margin-left: 5%;
+    max-height: 405px;
+    width: 800px;
+}
+
+@media (min-height: 699px) {
+
+    #containerListaVazia {
+        margin-top: 12%;
+    }
+
+    #Lista {
+        min-height: 508px;
+        margin-left: 2.5%;
+        max-height: 512px;
+    }
+
+
+}

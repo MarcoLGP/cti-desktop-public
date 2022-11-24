@@ -1,0 +1,49 @@
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#photoButton {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 4px solid #fff;
+    background-color: #fff;
+    border-radius: 13px;
+    margin-left: 20%;
+    margin-top: 13.5%;
+}
+
+#descricao {
+    font-weight: 600;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+#descricao>div,
+#descricao>div>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#descricao>div>span {
+    margin-left: 5px;
+    overflow: hidden;
+    max-height: 20px;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-size: 1.1em;
+    text-overflow: ellipsis;
+}
+
+@media (min-height: 700px) {
+
+    #photoButton {
+        margin-left: 19.7%;
+        margin-top: 13%;
+    }
+
+}

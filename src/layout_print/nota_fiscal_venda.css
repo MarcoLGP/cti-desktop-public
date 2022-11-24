@@ -1,0 +1,103 @@
+#conteudoNotaVenda {
+    display: flex;
+    align-self: center;
+    font-weight: bold;
+    min-width: 685px;
+    max-width: 685px;
+    flex-direction: column;
+    border: 1px black solid;
+  }
+  
+  #containerNotaVenda {
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    height: 100%;
+    flex-direction: column;
+  }
+  
+  #cabecalhoNotaVenda {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: row;
+  }
+  #tituloNotaVenda {
+    display: flex;
+    width: 450px;
+    margin-left: auto;
+    margin-right: 50px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #cod {
+    border-right: 1px black solid;
+    width: 59px;
+    text-align: center;
+    border-bottom: 1px black solid;
+  }
+
+  #produtoNotaVenda {
+    border-right: 1px black solid;
+    width: 518px;
+    border-bottom: 1px black solid;
+  }
+
+  #produtoNotaVenda > p {
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  #vUnitario {
+    width: 103px;
+    text-align: center;
+    border-bottom: 1px black solid;
+  }
+
+  #footerNotaVenda {
+    height: 30px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    border: 1px black solid;
+    display: flex; 
+    flex-direction: row; 
+  }
+
+  #footerNotaVenda > div {
+    border-right: 2px black solid;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+  #footerNotaVenda > div:last-child {
+    border-right: none;
+    font-size: 15px;
+  }
+
+  #blocosNotaVenda {
+    width: 50%;
+    border: 1px black solid; 
+    display: flex; 
+    flex-direction: column;
+  }
+
+  #blocosNotaVenda > span {
+    padding: 1.5%;
+    height: 23px;
+  }
+
+  #bordaNotaVenda {
+    border: 1px black solid; 
+    border-right: none;
+    width: 98%; 
+    border-left: none;
+  }

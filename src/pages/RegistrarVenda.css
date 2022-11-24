@@ -1,0 +1,126 @@
+#containerGerarNota {
+    display: flex;
+}
+
+#containerGerarNota>div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#left {
+    width: 47%;
+}
+
+#right {
+    width: 53%;
+}
+
+#botaoAdicionar {
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 40px;
+    background-color: #342B49;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rowCpfCnpj {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#totalVenda {
+    display: flex;
+    font-size: 1.4em;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#contTotalVenda {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    margin-top: 2%;
+    width: 300px; 
+}
+
+#valorVenda {
+    margin-left: 2%;
+    margin-top: 3px;
+    width: 200px;
+    color: green;
+    font-size: 1em;
+    margin-bottom: 1px;
+}
+
+#backButton {
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+#formNotaServ {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-right: 10%;
+    box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+}
+
+#botaoAdicionar>p {
+    font-weight: bolder;
+    color: #fff;
+}
+
+#listaVazia {
+    height: 450px;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#listaVazia > p {
+    font-weight: bolder;
+    margin-top: 3%;
+}
+
+#ListaVenda {
+    margin-top: 8%;
+    margin-right: 15%;
+    min-height: 430px;
+    max-height: 430px;
+    overflow: scroll;
+}
+
+@media (min-height: 699px) {
+
+    #ListaVenda {
+        margin-top: 4%;
+        min-height: 530px;
+        max-height: 530px;
+    }
+
+    #contTotalVenda {
+        margin-top: 0%;
+    }
+
+    #backButton {
+        margin-top: 4%;
+    }
+
+}

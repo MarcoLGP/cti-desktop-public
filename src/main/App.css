@@ -1,0 +1,18 @@
+* {
+    font-family: 'Montserrat';
+}
+#app {
+    display: grid;
+    position: absolute;
+    grid-template-columns: 23% 1fr;
+    grid-template-areas:
+    'nav rout content';
+    height: 100vh;
+    width: 100vw;
+}
+
+@media (max-height: 391px) {
+    #app {
+        display: none;
+    }
+}

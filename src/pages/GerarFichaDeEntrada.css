@@ -1,0 +1,76 @@
+#containerGerarFicha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+#boxForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    align-items: center;
+    box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+#closeButtonFicha {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+    align-self: center;
+    width: 35%;
+    justify-content: space-between;
+}
+
+#buttons > p {
+    cursor: pointer;
+}
+
+#cepField {
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+}
+
+#cepField > p {
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#formContainer {
+    display: flex;
+    margin-top: 20px;
+}
+
+#formContainer > div {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+@media (min-height: 699px) {
+    
+    #closeButtonFicha {
+        margin-right: 11%;
+    }
+
+    #boxForm {
+        margin-right: 6%;
+    }
+
+    #buttons {
+        width: 30%;
+        margin-right: 8%;
+    }
+
+}

@@ -1,0 +1,83 @@
+#containerInfoFicha {
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+}
+
+#leftFicha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+#rightFicha {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+}
+
+#dadosCont>:first-child {
+    align-self: center;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+#dadosCont>:first-child>p {
+    position: absolute;
+    color: #342B49;
+    margin-top: 0.5%;
+    cursor: pointer;
+    margin-left: 290px;
+}
+
+#dadosCont {
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+    width: 450px;
+    color: #342B49;
+    margin-top: 18%;
+    box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    padding: 20px;
+}
+
+#backButtonFicha {
+    margin-top: 20%;
+    cursor: pointer;
+}
+
+#buttonsInfoFicha {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+#buttonsInfoFicha>p {
+    cursor: pointer;
+}
+
+#dadosCont:hover,
+#dadosCont:hover>:first-child,
+#dadosCont:hover>:first-child>p {
+    color: #fff;
+    background-color: #342B49;
+}
+
+#leftFicha>div {
+    display: flex;
+    margin-top: 30%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#leftFicha>div>p {
+    font-weight: bolder;
+    margin-top: 10px;
+}

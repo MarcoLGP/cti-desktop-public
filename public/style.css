@@ -1,0 +1,15 @@
+html, 
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    transform: scale(0.97);
+    border-radius: 25px;
+}
+
+.container {
+    height: 100%;
+    background-color: rgb(245, 240, 240);
+}

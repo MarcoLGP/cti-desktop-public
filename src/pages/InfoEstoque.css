@@ -1,0 +1,46 @@
+#containerEstoque {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#containerEstoque > div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#leftEstoque {
+    width: 43%;
+}
+
+#dadosProd {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 15px;
+    width: 450px;
+    color: #342B49;
+    margin-top: 18%;
+    box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    padding: 25px;
+    padding-top: 15px;
+}
+
+#dadosProd:hover,
+#dadosProd:hover>h1 {
+    color: #fff;
+    background-color: #342B49;
+}
+
+#dadosProd > h1 {
+    align-self: center;
+    color: black;
+}
+
+#rightEstoque {
+    width: 57%;
+}

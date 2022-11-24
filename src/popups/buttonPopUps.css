@@ -1,0 +1,19 @@
+#buttonPopUp {
+    background-color: #342B49;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    min-height: 50px;
+    min-width: 200px;
+    max-height: 50px;
+    max-width: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+#buttonPopUp p {
+    cursor: pointer;
+}

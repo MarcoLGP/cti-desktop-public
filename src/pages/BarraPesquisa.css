@@ -1,0 +1,34 @@
+#barraPesquisa {
+    height: 6.2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#iconSaudacao {
+    display: flex;
+    height: 60px;
+    overflow: hidden;
+    width: 300px;
+    max-width: 300px;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+}
+
+#iconSaudacao > p {
+    font-weight: bolder;
+    margin-left: 2.5%;
+}
+
+#tituloPesquisa {
+    font-weight: bolder;
+    margin-top: 1.5%; 
+    text-align: center;
+    min-width: 400px; 
+    
+}
+
+#iconSaudacao > img {
+    margin-left: 11%;
+}

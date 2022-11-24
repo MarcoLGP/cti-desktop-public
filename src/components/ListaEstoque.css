@@ -1,0 +1,52 @@
+#containerLista {
+    margin: 15px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    align-items: center;
+    box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+#containerListaRegistro {
+    margin: 10px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    align-items: center;
+    box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+#containerLista:hover {
+    background-color: #342B49;
+    color: #fff;
+}
+
+#nome { 
+    margin-left: 15px;
+    max-width: 65%;
+    overflow: hidden;
+    font-weight: bolder;  
+}
+
+#dataValor {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder; 
+    margin-top: 4px;
+}
+
+#dataValor:first-child {
+    color: #342B49;
+}
+
+#valor {
+    text-align: center;
+    margin-top: 3px;
+    color: green;
+}

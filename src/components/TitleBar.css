@@ -1,0 +1,24 @@
+#titlebar {
+    display: flex;
+    height: 20px;
+    position: absolute;
+    width: 100%;
+    -webkit-app-region: drag;
+}
+
+.buttons {
+    display: flex;
+    text-align: center;
+    justify-content: right;
+    position: absolute;
+    right: 0px;
+    width: 150px;
+    -webkit-app-region: no-drag;
+    padding: 10px;
+}
+
+.buttons > img {
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-right: 10%;
+}

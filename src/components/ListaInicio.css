@@ -1,0 +1,47 @@
+#containerLista {
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    align-items: center;
+    box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.5);
+    width: 88%;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+#containerLista:hover, #containerLista:hover #data {
+    background-color: #342B49;
+    color: #fff;
+}
+
+
+#nome { 
+    margin-left: 15px;
+    font-weight: bolder;  
+}
+
+#nomeFont { 
+    min-width: 500px; 
+    max-width: 500px;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+#data {
+    margin-left: 8px;
+    margin-right: 12px;
+    color: #342B49;
+    font-weight: bolder;
+}
+
+
+
+@media (min-height: 699px) {
+
+    #containerLista {
+        width: 90%;
+    }
+
+
+}

@@ -1,0 +1,44 @@
+#containerLista {
+    margin: 15px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    align-items: center;
+    box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+#containerLista:hover #dataEquip::first-line {
+    background-color: #342B49;
+    color: #fff;
+}
+
+#nome { 
+    margin-left: 15px;
+    max-width: 65%;
+    overflow: hidden;
+    font-weight: bolder;  
+}
+
+#dataEquip {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    font-weight: bolder; 
+    margin-top: 4px;
+}
+
+#dataEquip::first-line {
+    text-align: center;
+    color: #2c1b50;
+}
+
+#equip {
+    text-align: left;
+    margin-top: 3px;
+    overflow: hidden;
+    max-height: 120px;
+    max-width: 250px;
+}

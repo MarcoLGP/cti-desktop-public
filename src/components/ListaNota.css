@@ -1,0 +1,25 @@
+#closeButtonNota {
+    display: flex;
+    align-self: center;
+    height: 20px;
+    cursor: pointer;
+}
+
+#valor {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 3px;
+    color: green;
+}
+
+@media (min-height: 699px) {
+
+    #containerLista {
+        width: 90%;
+    }
+
+    #closeButtonNota {
+        width: 40px;
+    }
+
+}
